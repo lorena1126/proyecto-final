@@ -73,6 +73,6 @@ Originalmente  sera solo para quilicura pero a futuro se podria  incluir datos i
 
 -Boceto-
 
-![] (assets/img_readme/inicio.jpg)
-![] (assets/img_readme/musicayarte.jpg)
-![] (assets/img_readme/talleres.jpg)
+![](assets/img_readme/inicio.jpg)
+![](assets/img_readme/musicayarte.jpg)
+![](assets/img_readme/talleres.jpg)
