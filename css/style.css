@@ -1,1 +1,17 @@
-style.css
+.navbar-cultural{
+ position: fixed-top;
+}
+
+
+
+.color_linea_cultrual{
+	color: #a80d86;
+}
+
+.jumbotron{
+	background-color: #212529 ;
+}
+
+.jumbotron_form_cultural{
+	color: white;
+}
