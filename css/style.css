@@ -1,46 +1,55 @@
-.color_linea_cultrual{
+.color_linea_cultrual
+{
 	color: #a80d86;
 }
 
-.fondocultural{
-	background-color: #8c1c86
-}
-
-.background-header{
-	background-image:
-}
-
-.container-color-white{
-	background-color: white;
-	opacity:0.5;
-	color:black;
+.fondocultural
+{
+	background-color: #8c1c86;
 }
 
 
-.fondo-header-cultural{
+
+
+
+@media(max-width: 768px){
+	.fondocultural{
+		background-color:black;
+		position: absolute;
+		left: 35%
+	}
+	}
+
+
+.fondo-header-cultural
+{
 	background-color:#212529;
 	color: white;
 }
 
-.textobanner{
+.textobanner
+{
 	position: absolute;
 	top:25%;
 	color:white;
 }
 
-.background-noticias-talleres{
+.background-noticias-talleres
+{
 	background-color:#039e9b;
 	color:white;
 
 }
 
-.inscribete-cultural{
+.inscribete-cultural
+{
 	padding: 50px;
 	color:#fff;
 	background-color:#039e9b;
 }
 
-.footer{
+.footer
+{
 	color: white;
 }
 
@@ -50,4 +59,12 @@
   margin-bottom: 0;
   padding: 0 40px 30px 40px;
   margin-top: 30px;
+}
+
+.imagen-fluid{
+  width: 200px;
+}
+
+.navbar-nav{
+	text-align: right;
 }
