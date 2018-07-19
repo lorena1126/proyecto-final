@@ -4,48 +4,54 @@
 	<meta charset="utf-8">
 	<title>Quilicura Cultural</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- bootstrap -->
 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+	<!-- mi estilo css -->
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
+
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-cultrual">
+ <!-- comienzo navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-cultrual fixed-top">
 	  <a class="navbar-brand" href="#">Quilicura Cultural</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-
-	  <div class=" navbar-position-cultural collapse navbar-collapse" id="navbarColor02">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+      <div class=" navbar-position-cultural collapse navbar-collapse" id="navbarColor02">
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item active">
-	        <a class="nav-link" href="#"> Inicio <span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="index.html"> Inicio <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item active">
-	        <a class="nav-link" href="talleres.html"> Talleres</a>
+	        <a class="nav-link" href="talleres.html"> Talleres Invierno</a>
 	      </li>
 	      <li class="nav-item active">
-	        <a class="nav-link" href="musicayarte.html"> Musica y Arte</a>
+	        <a class="nav-link" href="musicayarte.html"> Talleres</a>
 	      </li>
-	     </ul>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="teatro.html"> Teatro </a>
+	      </li>
+         </ul>
 	  </div>
 	</nav>
+ <!-- fin nabvar -->
 
-	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+<!-- comienzo carousel -->
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
 	      <img class="d-block w-100" src="assets/img/slider-mural.jpg" alt="First slide">
 	    </div>
 	    <div class="carousel-item">
-	      <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+	      <img class="d-block w-100" src="assets/img/taller.jpg" alt="Second slide">
 	    </div>
 	    <div class="carousel-item">
-	      <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+	      <img class="d-block w-100" src="assets/img/taller.jpg" alt="Third slide">
 	    </div>
 	  </div>
 	  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -56,101 +62,203 @@
 	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 	    <span class="sr-only">Next</span>
 	  </a>
-	</div>
+
+	
+	   <div class=" container-color-white carousel-caption d-none d-md-block">
+		    <h5> LA CULTURA NO MUERDE!! </h5>
+	   </div>
+</div>
+<!-- fin carousel -->
+
+<hr class="color_linea_cultural" />
+
+<!-- comienzo header -->
+<header class=" background-noticias-talleres container-fluid ">
+	<br>
+	<h1 class="text-center"> Noticias </h1>
+	<br>
+</header>
+<!-- termino header -->
+
+ <hr class="color_linea_cultural" />
+
+<!-- container noticias -->
+<div class="container-fluid">
+  <hr class="color_linea_cultural" />
+
+<div class="container-fluid">
+     <div class="row">
+	 	<div class="col-md-4">
+            <div class=" thumbnail">
+	 		    <img src="assets/img/back-mural.jpg" class=" img-fluid border">
+	 		     <div class="centrado">
+	 		       <h3>INAUGURACIÓN DEL PRIMER MUSEO A CIELO ABIERTO EN QUILICURA </h3>
+	 		       <p>
+	 		       	Oficialmente Quilicura tiene su primer Museo a Cielo Abierto con más de 4.200 metros de extensión, convirtiéndose en el más grande de Chile.
+                    </p>
+		 		   <div class="btn-group" role="group" aria-label="...">
+	                 <button type="button" class="btn btn-default"> Más Info</button>
+	               </div>
+	             </div>
+	 	     </div>
+	      </div>
+
+	 	   <div class="col-md-4">
+	 	     <div class="thumbnail">
+	 		       <img src="assets/img/teatro1.jpg" class=" img-fluid border">
+	 		       <div class="centrado">
+	 		       <h3> OBRA: Iara, encanto de las aguas</h3>
+	 		       <p> Teatro de sombras inspirado en la leyenda de la sirena brasileña, IARA. Un indio de la aldea sueña con una mujer sobrenatural. Al despertar, busca al sabio chamán para intentar entender cuáles son sus misterios, descubriendo así la historia de Iara. En el encantamiento de la sirena, el protagonista se sumerge con ella en la profundidad de su propio destino.</p>
+	 		       <h6> 
+                     Compañía: Lumiato Teatro de Formas Animadas, Brasil.
+                     Jueves 19 de julio – 19:00 horas – Entrada liberada.
+                      Todo Espectado
+                  </h6>
+                  <button type="button" class="btn btn-default"> Más Info</button>
+
+	 		    </div>
+	 	    </div>
+	 	   </div>
+
+
+	 	   <div class="col-md-4">
+	 	    <div class=" thumbnail">
+	 		   <img src="assets/img/centro_cultural_quilicura.jpg" class="img-fluid border">
+	 		   <div class="centrado">
+	 		   <h3> TENEMOS EL PRIMER CENTRO DE PRODUCCIÓN MUSICAL MUNICIPAL DEL PAÍS</h3>
+	 		   <p>  
+                 Un hito en la historia de Chile es lo que realizó nuestra comuna, inaugurando el primer Centro de Producción Musical Municipal, que lleva por nombre Pianista Valentín Trujillo, en honor al destacado artista nacional. Este espacio, que busca potenciar a los músicos locales, permite grabar producciones discográficas gratuitamente en calidad profesional, convirtiéndose así, en una cuna de nuevos talentos.
+
+	 		   </p>
+                  <div class="btn-group" role="group" aria-label="...">
+	               <button type="button" class="btn btn-default"> Más Info  <a href=""></a></button>
+	               </div>
+	           </div>
+             </div>
+	 	   </div>
+	 	</div>
+	 </div>
+
+<!-- fin container noticias -->
+
+     <hr class="color_linea_cultural" />
+
+<!-- comienzo segundo header -->
+<header class="  background-noticias-talleres container-fluid ">
+	<br>
+	<h1 class="text-center"> Talleres </h1>
+	<br>
+</header>
+<!-- fin segundo header -->
 
    <hr class="color_linea_cultural" />
+	
+<!-- comienzo talleres -->
+
+	<div class="container-fluid">
+     	<div class="row">
+	 	   <div class="col-md-4">
+              <div class=" thumbnail">
+	 		     <img src="assets/img/patinaje.jpg" class=" img-fluid border">
+	 		      <div class="centrado">
+	 		        <h3> TALLER DE PATINAJE VACACIONES DE INVIERNO </h3>
+	 		          <p> 
+                       $10.000 semana completa 
+                       Taller de 7 días para niñas desde 5 años en adelante debe tener patines propios y saber deslizar solita 
+                       <a href="#">+56935854149</a>
+                       </p>
+		 		   
+	              </div>
+	 	       </div>
+	       </div>
+
+	 	   <div class="col-md-4">
+	 	      <div class="thumbnail">
+	 		     <img src="assets/img/taller-mujer.jpg" class=" img-fluid border">
+	 		       <div class="centrado">
+	 		        <h3> Talleres Gratuitos <br> Casa de la Mujer</h3>
+	 		          <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation.
+	 		          </p>
+	 		         
+	                </div>
+	 	         </div>
+	 	    </div>
 
 
-
-	<div class="container">
-		<div class="row">
-			<div class=" col-lg-4  col-md-4 col-sm-12">
-				<div class="card" style="width: 20rem;">
-					  <div class="card-body">
-					    <h5 class="card-title">Talleres</h5>
-					    <h6 class="card-subtitle mb-2 text-muted">Lorem </h6>
-					    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					    <a href="#" class="card-link"> Más Info </a>
-					   
-					  </div>
+	 	  <div class="col-md-4">
+	 	    <div class=" thumbnail">
+	 		   <img src="assets/img/pañolenci.jpg" class="img-fluid border">
+	 		      <div class="centrado">
+	 		        <h3> Taller Pañolenci</h3>
+	 		         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 		         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 		         quis nostrud exercitation ullamco laborise</p>
+                    
 	             </div>
-	         </div>
+              </div>
+	 	   </div>
+	 	</div>
+     </div>
+<!-- fin talleres -->
+	
+<br>
+<br>
 
-	         <div class="col-lg-4  col-md-4 col-sm-12 ">
-				<div class="card" style="width: 20rem;">
-					  <div class="card-body">
-					    <h5 class="card-title"> Música </h5>
-					    <h6 class="card-subtitle mb-2 text-muted">Lorem</h6>
-					    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					    <a href="#" class="card-link"> Más Info</a>
-					 
-					  </div>
-	             </div>
-	         </div>
+<div class="inscribete-cultural container-fluid col-xs-6 col-sm-6- col-md-6">
+<div class="text-center">
+<h2> Contactanos</h2>
+<h5> ¿Quieres aparecer en la pagina?</h5>
+<h6> Tu opinion nos importa </h6>
+<div id="mc_embed_signup">
+<form role="form" action="https://startbootstrap.us3.list-manage.com/subscribe/post?u=531af730d8629808bd96cf489&amp;id=afb284632f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate">
+<div class="input-group input-group-lg">
+<input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Email address...">
+<span class="input-group-btn">
+<button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-secondary"> enviar!</button>
+</span>
+</div>
+<div id="mce-responses">
+<div class="response" id="mce-error-response" style="display:none"></div>
+<div class="response" id="mce-success-response" style="display:none"></div>
+</div>
+</form>
+</div>
+</div>
+</div>
 
-	         <div class=" col-lg-4  col-md-4 col-sm-12">
-				<div class="card" style="width: 20rem;">
-					  <div class="card-body">
-					    <h5 class="card-title">Arte</h5>
-					    <h6 class="card-subtitle mb-2 text-muted">Lorem</h6>
-					    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					    <a href="#" class="card-link"> Más Info</a>
-					    
-					  </div>
-	             </div>
-	         </div>
-	     </div>
-	</div>
+
+   
+
+<!-- Footer -->
+
+<div class="footer">
+<footer class="page-footer font-small unique-color-dark mt-4">
+  <div style="background-color:#212529;">
+    <div class="container">
+     <div class="footer-copyright text-center py-3"> Quilicura Cultural
+     </div>
+    </div>
+  </div>
+</footer>
+
+</div>
+<!-- Footer -->
+
+
+
 
     <hr class="color_linea_cultural" />
-
-	<div class="jumbotron jumbotron-fluid">
-	  <div class="container ">
-	    <h6 class="display-4 jumbotron_form_cultural"> Contactanos </h6>
-	    <p>
-			<form>
-			  <div class="form-group row">
-			    <label for="inputEmail3" class="col-sm-2 col-form-label jumbotron_form_cultural">Nombre</label>
-			    <div class="col-sm-10">
-			      <input type="email" class="form-control" id="inputEmail3" placeholder=" Nombre ">
-			    </div>
-			  </div>
-			  <div class="form-group row">
-			    <label for="inputPassword3" class="col-sm-2 col-form-label jumbotron_form_cultural">Email</label>
-			    <div class="col-sm-10">
-			      <input type="password" class="form-control" id="inputPassword3" placeholder=" Email">
-			    </div>
-			  </div>
-			   <div class="form-group row">
-			    <div class="col-sm-6">
-			      <button type="submit" class="btn btn-primary">Enviar</button>
-			    </div>
-			  </div>
-			</form>
-	    </p>
-	  </div>
-	</div>
-
-    <hr class="color_linea_cultural" />
-
-
-
-
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<!-- Popper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<!-- Bootstrap -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+<!-- Mi propio JS -->
+<script src="js/cultural.js"></script>
 
 </body>
 </html>

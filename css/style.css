@@ -1,17 +1,47 @@
-.navbar-cultural{
- position: fixed-top;
-}
-
-
-
 .color_linea_cultrual{
 	color: #a80d86;
 }
 
-.jumbotron{
-	background-color: #212529 ;
+.fondocultural{
+	background-color: #8c1c86
 }
 
-.jumbotron_form_cultural{
+.background-header{
+	background-image:
+}
+
+.container-color-white{
+	background-color: white;
+	opacity:0.5;
+	color:black;
+}
+
+
+.fondo-header-cultural{
+	background-color:#212529;
 	color: white;
 }
+
+.textobanner{
+	position: absolute;
+	top:25%;
+	color:white;
+}
+
+.background-noticias-talleres{
+	background-color:#039e9b;
+	color:white;
+
+}
+
+.inscribete-cultural{
+	padding: 50px;
+	color:#fff;
+	background-color:#039e9b;
+}
+
+.footer{
+	color: white;
+}
+
+
